@@ -9,12 +9,12 @@ Faeze Brahman, Chandra Bhagavatula, Valentina Pyatkin, Jena D. Hwang, Xiang Lorr
 ```
 conda env create -f environment.yml
 ```
+![](https://github.com/allenai/PlaSma/blob/main/procedural_skd_overview.png?raw=true)
 
 ## 1. CoPlan Dataset
-Pleasef find the CoPlan dataset with additional details in `data/CoPlan/` directory.
+Please find the CoPlan dataset with additional details in `data/CoPlan/` directory.
 
 ## 2. Procedural Knowledge Distillation
-![](https://github.com/allenai/PlaSma/blob/main/procedural_skd_overview.png?raw=true)
 
 For distilling `goal-based planning`, run:
 
