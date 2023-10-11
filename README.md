@@ -28,7 +28,7 @@ For constrained and counterfactual (re)planning tasks, format the input json fil
 ## 3. Verifier-guided Decoding
 ![](https://github.com/allenai/PlaSma/blob/main/verifier_guided_dec.png?raw=true)
 
-For doing decoding using our verifier guided decoding algorithm please follow instruction in `verifier_guided_decoding` directory.
+For doing decoding using our verifier guided decoding algorithm please follow instruction in [`verifier_guided_decoding`](https://github.com/allenai/PlaSma/tree/main/verifier_guided_decoding) directory.
 
 
 ## Citation 
