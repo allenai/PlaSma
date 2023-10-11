@@ -26,7 +26,7 @@ bash run_distill.sh
 For constrained and counterfactual (re)planning tasks, format the input json file and accordingly modify `DATA_DIR`, `--source_prefix`, `--text_column` (input field), and `--summary_column` (output field) in the bash file.
 
 ## 3. Verifier-guided Decoding
-![]()
+![](https://github.com/allenai/PlaSma/blob/main/guided_dec_new.pdf)
 
 For doing decoding using our verifier guided decoding algorithm please follow instruction in `verifier_guided_decoding` directory.
 
