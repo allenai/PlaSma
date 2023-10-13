@@ -1,6 +1,8 @@
 # PlaSma
 This is a repository for paper titled, **PlaSma: Making Small Language Models Better Procedural Knowledge Models for (Counterfactual) Planning**
 
+[link to paper](https://arxiv.org/abs/2305.19472)
+
 ### Authors:
 Faeze Brahman, Chandra Bhagavatula, Valentina Pyatkin, Jena D. Hwang, Xiang Lorraine Li, Hirona J. Arai, Soumya Sanyal, Keisuke Sakaguchi, Xiang Ren, Yejin Choi
 
@@ -33,7 +35,8 @@ For doing decoding using our verifier guided decoding algorithm please follow in
 
 ### TODO:
 - add support/details for all tasks in verifier guided decoding (working on instruction)
-- provide models's checkpoints for all 3 single tasks and multitask
+- provide models' checkpoints for all 3 single tasks and multitask T5-11B based models
+- provide demo
 
 
 ## Citation 
