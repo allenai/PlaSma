@@ -14,6 +14,6 @@ This is CoPlan_v2 which contains Curie-generated, Davinci-generated and human-wr
 There is no difference in v1 and v2 on the `constrained plannning` and `counterfactual replanning` tasks.
 
 
-We additionally provided the processed data for multitask distillation which can be find in `multi-task` folder.
+We additionally provided the processed data for multitask distillation which can be found in `multi-task` folder.
 
 
