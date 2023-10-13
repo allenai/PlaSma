@@ -1,7 +1,6 @@
 # PlaSma
 This is a repository for paper titled, **PlaSma: Making Small Language Models Better Procedural Knowledge Models for (Counterfactual) Planning**
-
-[link to paper](https://arxiv.org/abs/2305.19472)
+[paper](https://arxiv.org/abs/2305.19472)
 
 ### Authors:
 Faeze Brahman, Chandra Bhagavatula, Valentina Pyatkin, Jena D. Hwang, Xiang Lorraine Li, Hirona J. Arai, Soumya Sanyal, Keisuke Sakaguchi, Xiang Ren, Yejin Choi
