@@ -13,7 +13,7 @@ conda env create -f environment.yml
 ## 1. CoPlan Dataset
 Please find the CoPlan dataset with additional details in [`data/CoPlan/`](https://github.com/allenai/PlaSma/tree/main/data/CoPlan) directory.
 
-## 2. Procedural Knowledge Distillation
+## 2. Procedural Symbolic Knowledge Distillation
 ![](https://github.com/allenai/PlaSma/blob/main/procedural_skd_overview.png?raw=true)
 
 For distilling `goal-based planning`, run:
@@ -23,7 +23,7 @@ cd distillation
 bash run_distill.sh
 ```
 
-For constrained and counterfactual (re)planning tasks, format the input json file and accordingly modify `DATA_DIR`, `--source_prefix`, `--text_column` (input field), and `--summary_column` (output field) in the bash file.
+For constrained and counterfactual (re)planning tasks, format the input json file and accordingly modify `DATA_DIR`, `--source_prefix` (T5-based models are recommended to have it), `--text_column` (input field), and `--summary_column` (output field) in the bash file.
 
 ## 3. Verifier-guided Decoding
 ![](https://github.com/allenai/PlaSma/blob/main/verifier_guided_dec.png?raw=true)
@@ -32,7 +32,7 @@ For doing decoding using our verifier guided decoding algorithm please follow in
 
 
 ### TODO:
-- add support for all tasks in verifier guided deocding
+- add support/details for all tasks in verifier guided decoding (working on instruction)
 - provide models's checkpoints for all 3 single tasks and multitask
 
 
