@@ -1,4 +1,3 @@
-# python demo_stepbeam_generation.py --model_path /net/nfs.cirrascale/mosaic/faezeb/script-kd/k-distill/outputs/multitask/grouped_by_goal_v3/NEW_Feb23/t5-11b_bs8_lr1e-5_ep15_seed16797 --task script-multi --debug
 import json
 from tqdm import tqdm
 import logging
@@ -68,10 +67,10 @@ def main():
     # Other parameters
 
     parser.add_argument(
-        "--model_path", type=str, default="/net/nfs.cirrascale/mosaic/faezeb/script-kd/k-distill/outputs/multitask/grouped_by_goal_v3/NEW_Feb23/t5-11b_bs8_lr1e-5_ep15_seed16797", help=""
+        "--model_path", type=str, default="faezeb/script-kd/k-distill/outputs/multitask/grouped_by_goal_v3/NEW_Feb23/t5-11b_bs8_lr1e-5_ep15_seed16797", help=""
     )
     parser.add_argument(
-        "--classification_model_path", type=str, default="/net/nfs.cirrascale/mosaic/faezeb/script-kd/classifier/decoding_script_critic/outputs/v3/roberta-large_bs_32_ep_10_lr_1e-5_seed_3331", help=""
+        "--classification_model_path", type=str, default="faezeb/script-kd/classifier/decoding_script_critic/outputs/v3/roberta-large_bs_32_ep_10_lr_1e-5_seed_3331", help=""
     ) # need to change / just for test
     # Optional
     parser.add_argument(
